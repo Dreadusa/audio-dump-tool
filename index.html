@@ -1,19 +1,56 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script
+      type="text/javascript"
+      src="brython.js">
+    </script>
+        <script
+        type="text/javascript"
+        src="brython_stdlib.js">
+      </script>
+    <script type="text/python">
+      alert("here")
+    </script>
     <meta charset="UTF-8">
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <title>Hello World!</title>
+    <link rel="stylesheet" href="style.css">
+    <title> AUDIO DUMP </title>
+    <div class="parent">
+    <img class="image1" src="border.png"> </img>
+    <img class="image2" src="audioDump.gif"> </img>
+    
+    </div>
+    <background src="note.gif"> </background>
+    
+    <img class="formContainer" src="borderForm.gif"> </img>
+    <img class="musicfolderimage" src="musicFolder.gif"> </img>
+    <img class="yypfolderimage" src="yypFolder.gif"> </img>
+    <img class="submitbutton" src="submitbutton.gif"> </img>
+    <form class = "form">
+      <label class="dontshow" for="mdirectory">
+        Music Folder
+        
+      </label>
+      <input class ="folderGetter" type="file" id="mdirectory" value=""  webkitdirectory directory>
+      <h1 id = "mdirectdisplay">music directory goes here</h1>
+     
+     
+      <label class="dontshow" for="ydirectory">YYP Folder</label>
+      <input class ="folderGetter" type="file" id="ydirectory" value=""  webkitdirectory directory>
+      <h1 id = "ydirectdisplay">yyp directory goes here</h1>
+      
+      <input class="Submit" type="button" value="Submit" id="btn">
+    </form> 
+    <script src="input.js">
+    </script>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    and Electron <span id="electron-version"></span>.
 
     <!-- You can also require other files to run in this process -->
     <script src="./renderer.js"></script>
+    <script src="getFolder.js"></script>
   </body>
 </html>

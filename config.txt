@@ -1,0 +1,1 @@
+{"musDirectory":"C:\\Users\\DREADUSA\\Dropbox\\Game Assets\\MUSIC FOLDER\\Player SFX","yypDirectory":"C:\\Users\\DREADUSA\\Documents\\GitHub\\turn based game\\Turn-Based-Prototype\\turn based combat"}

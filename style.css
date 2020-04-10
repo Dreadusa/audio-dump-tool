@@ -1,0 +1,108 @@
+body {
+    margin: center;
+    background-image: url("Note.gif");
+    background-repeat: repeat
+  }
+form {
+    position: absolute;
+    top: 200px;
+    right: 0px;
+    margin: auto;
+    width:100%;
+    color: white;
+    outline-width: 4px dotted;
+}
+input[type=button], input[type=reset], input[type=submit] {
+    background-color: #262b44;
+    border: none;
+    color: white;
+    padding: 20px 24px;
+    text-decoration: none;
+    cursor: pointer;  
+}
+h1 {
+    text-align:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+label {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 32px;
+}
+input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    color: white;
+}
+.parent {
+position: relative;
+top: 0;
+left: 0;
+}
+.image1 {
+position: relative;
+top: 0;
+right: 30px;
+width: 420px;
+}
+.image2 {
+position: absolute;
+top: -17px;
+left: 0px;
+}
+
+.musicfolderimage {
+position: absolute;
+top: 190px;
+left: 100px;
+width: 50%;
+height: 7%;
+}
+.yypfolderimage {
+    position: absolute;
+    top: 283px;
+    left: 100px;
+    width: 50%;
+    height: 6%;
+    }
+.submitbutton {
+    position: absolute;
+    top: 390px;
+    left: 100px;
+    width: 50%;
+    height: 6%;
+}
+.dontshow{
+font-size: 35px;
+opacity: 0;
+}
+.formContainer {
+    position: absolute;
+    top: 160px;
+    left: 0px;
+}
+.Submit{
+border-radius: 20px;
+color: white;
+opacity: 0;
+}
+.Submit:Hover{
+color: white;
+border-radius: 6px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+opacity: 0;
+}
